@@ -1,25 +1,25 @@
 /*
-* Author - Sonu kumar kushwaha
-* Email - flyingsonu736@gmail.com
+* 	Author : Sonu kumar kushwaha
+* 	Email : flyingsonu736@gmail.com
 */
 
 body {
 	font-family: 'Montserrat', sans-serif;
-    color: #404142;
-    font-size: 16px;
+    	color: #404142;
+    	font-size: 16px;
 	letter-spacing: 0.2px;
-    background-color:orange;
-    text-align: center;
+    	background-color:orange;
+    	text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
-    font-family: 'Roboto', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: -0.1px;
-    opacity:0.7;
+    	font-family: 'Roboto', sans-serif;
+    	text-transform: capitalize;
+    	letter-spacing: -0.1px;
+    	opacity:0.7;
 }
 .main .feed {
-    align-items: center;
+    	align-items: center;
 	width: 60%;
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
@@ -118,3 +118,5 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: 9px;
     }
 }
+
+/* Written by Sonu kumar kushwaha */

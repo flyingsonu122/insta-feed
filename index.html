@@ -8,17 +8,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>InstaFeed</title>
         <link rel="stylesheet" href="./style.css">
+
+          <!--font awesome-->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </head>
 
     <body>
         <div class="main">
             <center>
                 <br><br>
-                <h3>Insta Feed</h3>
+                <h3><i class="fab fa-instagram"></i>Insta Feed</h3>
                 <br><br>
 
-                <form onsubmit="getOne(); return false;">
-                    <input autocomplete="off" autofocus id="name" type="text" placeholder="Enter user name">
+                <form   onsubmit="getOne(); return false;">
+                    <input class="username-feed" autocomplete="off" autofocus id="name" type="text" placeholder="Enter user name">
                     <input type="submit">
                 </form>
 

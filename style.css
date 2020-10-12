@@ -5,10 +5,13 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-    	color: #404142;
+    	color: #fff;
     	font-size: 16px;
 	letter-spacing: 0.2px;
-    	background-color:orange;
+        background: url("instagrambackground.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     	text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -16,7 +19,14 @@ h1, h2, h3, h4, h5, h6 {
     	font-family: 'Roboto', sans-serif;
     	text-transform: capitalize;
     	letter-spacing: -0.1px;
-    	opacity:0.7;
+        opacity:0.7;
+        color:#dddddd
+}
+
+
+.username-feed{
+    outline: 0px;
+ 
 }
 .main .feed {
     	align-items: center;
@@ -25,11 +35,13 @@ h1, h2, h3, h4, h5, h6 {
   	-moz-transition: all 0.3s;
   	transition: all 0.3s;
   	margin-right: 5px auto;
-  	border: 3px solid #f6f6f6;
+  	border: 3px solid #f4f4f4;
     border-radius: 5px;
-    background-color: white;
+    background-color: #e0ece4;
+    margin-top: 100px;
 }
 .main .feed:hover {
+   
     box-shadow: 3px 3px 10px #ccc;
     transform: translateY(-10px);
 }
@@ -63,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     padding: 0px;
     margin: 0px;
+    color:#dddddd;
 }
 
 #copyright .lookbook {
@@ -70,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #copyright a {
-    color: #616161;
+    color: #f0a500;
 }
 
 #copyright a:hover {
